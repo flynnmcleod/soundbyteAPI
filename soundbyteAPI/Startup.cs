@@ -60,7 +60,7 @@ namespace soundbyteAPI
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ScribrAPI V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "soundbyteAPI");
                 c.RoutePrefix = string.Empty; // launch swagger from root
             });
 
